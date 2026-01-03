@@ -29,6 +29,31 @@ Built for realism, performance, and easy integration with modern FiveM servers.
 ![Showroom – Image 3](https://github.com/sarancodes/fivem-premium-car-dealer/blob/main/location_blip.png)
 
 ---
+## 🔧 Required Configuration Change
+
+This resource uses **default GTA V vehicles**.  
+You must update the showroom vehicle list to avoid addon car dependencies.
+
+---
+
+### 📁 File Location
+car_showroom->config.lua
+---
+
+### ✏️ Configuration Update
+
+Replace the existing `Config.ShowroomCars` with the following:
+
+```lua
+Config.ShowroomCars = {
+    { model = 'adder',        price = 1000000, coords = vector4(-1256.94, -366.31, 36.18, 83.10), zOffset = 0.0 },
+    { model = 'zentorno',     price = 725000,  coords = vector4(-1262.83, -353.76, 36.18, 39.72), zOffset = 0.0 },
+    { model = 't20',          price = 2200000, coords = vector4(-1269.22, -363.61, 36.18, 92.38), zOffset = 0.0 },
+    { model = 'schafter3',    price = 65000,   coords = vector4(-1244.23, -356.63, 40.09, 89.15), zOffset = 0.0 },
+    { model = 'entityxf',     price = 795000,  coords = vector4(-1247.05, -351.81, 40.07, 81.42), zOffset = 0.0 }
+}
+```
+---
 
 ## ✨ Features
 
