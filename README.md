@@ -5,9 +5,19 @@ A **high-quality premium car dealership system** for FiveM, featuring a luxury *
 Built for realism, performance, and easy integration with modern FiveM servers.
 
 ---
-## 📂 Dependency
-- This resource requires the Patoche Car Dealer MLO.
-- Credits and thanks to Patoche for the original MLO.
+## 📂 Dependencies
+- **Patoche Car Dealer MLO**  
+  Credits and thanks to **Patoche** for the original dealership interior.
+
+- **ox_lib**  
+  Required for UI components, notifications, and shared utilities.
+
+- **ox_target**  
+  Used for smooth and interactive in-world interactions.
+
+> ⚠️ Ensure all dependencies are installed and started **before** this resource.
+
+---
 
 ## ✨ Features
 
