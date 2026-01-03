@@ -18,6 +18,17 @@ Built for realism, performance, and easy integration with modern FiveM servers.
 > ⚠️ Ensure all dependencies are installed and started **before** this resource.
 
 ---
+## 📸 Screenshots
+
+### Showroom & UI Previews
+
+![Showroom – Image 1](https://github.com/sarancodes/fivem-premium-car-dealer/blob/main/2.jpg)
+
+![Showroom – Image 2](https://github.com/sarancodes/fivem-premium-car-dealer/blob/main/6.jpg)
+
+![Showroom – Image 3](https://github.com/sarancodes/fivem-premium-car-dealer/blob/main/location_blip.png)
+
+---
 
 ## ✨ Features
 
@@ -46,6 +57,18 @@ Built for realism, performance, and easy integration with modern FiveM servers.
 - QBCore
 - Standalone (basic mode)
 
-> Adapter-based structure makes switching frameworks easy.
+---
+## 📦 Download & Installation
+
+1. Download the latest version from the **Releases** section of this repository.
+2. Extract the downloaded file.
+3. Place the resource folder into your server’s `resources/` directory.
+4. Add the following lines to your `server.cfg` (ensure dependencies are started first):
+
+```cfg
+ensure ox_lib
+ensure ox_target
+ensure car_showroom
+
 
 
